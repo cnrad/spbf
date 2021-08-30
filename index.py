@@ -1,6 +1,4 @@
-import threading
 import random
-import requests
 
 def main():
     for i in range(100):
@@ -15,5 +13,6 @@ def main():
 
             print(' '.join(phrase))
 
-
 main()
+
+# get random combinations and hope for a valid seed phrase
