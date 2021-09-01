@@ -29,6 +29,8 @@ async function main(){
         console.log(`Valid Seed Phrase:\n${phrase}`)
         console.log("Address: " + wallet.address + "\nBalance: " + balance + " ETH\n\n");
 
+        if(balance > 0) return;
+
         return main();
     } else return main();
 }
